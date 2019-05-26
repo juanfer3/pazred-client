@@ -43,20 +43,6 @@ class CreateGalery extends Component {
                     />
                     </Grid>
                     <Grid item xs={12} sm={4} >
-                    <TextField
-                        id="standard-select-currency"
-                        select
-                        label="Select"
-                        helperText="Please select your currency"
-                        margin="normal"
-                    >
-                        <MenuItem  value="1">
-                            Dubai
-                        </MenuItem>
-                        <MenuItem  value="2">
-                            Eter
-                        </MenuItem>
-                    </TextField>
                     </Grid>
                 </Grid>
             </div>
