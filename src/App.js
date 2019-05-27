@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <Router history={ this.props.history }>
       <Navbar/>
-        <div>
+        <div className="App">
           <Route exact path="/" component={ Home }/>
           <Route exact path="/audio" component={ Home }/>
           <Route exact path="/audio/create" component={ Home }/>

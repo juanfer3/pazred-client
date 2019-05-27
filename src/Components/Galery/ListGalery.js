@@ -20,8 +20,8 @@ class ListGalery extends Component {
     render() {
         return (
             <div>
-            <Fab color="primary" aria-label="Add"  containerElement={<Link to="/photos/create" />}  >
-                    <Link to="/photos/create" ><AddIcon /></Link>
+            <Fab component={Link} to="/photos/create" color="primary" aria-label="Add"  containerElement={<Link to="/photos/create" />}  >
+                    <AddIcon />
             </Fab>
                 <Grid  container spacing={3} direction="row" justify="center" alignItems="center">
           <Grid item xs={12} sm={4} >
